@@ -14,8 +14,9 @@ const AdminHeader = () => {
       <div>
         <Link to="/">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-            alt=""
+             src={`${process.env.PUBLIC_URL}/LUBRIFILTRES-LOGO.svg`}
+             alt="LOGO"
+             className="w-[100px] h-[100px]"
           />
         </Link>
       </div>

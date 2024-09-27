@@ -128,10 +128,8 @@ const ShopLogin = () => {
               </button>
             </div>
             <div className={`${styles.noramlFlex} w-full`}>
-              <h4>Not have any account?</h4>
-              <Link to="/shop-create" className="text-blue-600 pl-2">
-                Sign Up
-              </Link>
+              <h4>Vous n'avez pas de compte ?</h4>
+              <h4>Contactez le +216 27 998 300</h4>
             </div>
           </form>
         </div>

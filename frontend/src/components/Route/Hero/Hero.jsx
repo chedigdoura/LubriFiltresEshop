@@ -7,19 +7,19 @@ const Hero = () => {
     <div
       className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
       style={{
-        backgroundImage:
-          "url(https://themes.rslahmed.dev/rafcart/assets/images/banner-2.jpg)",
+        backgroundColor: "#cccccc",
       }}
+      
     >
-      <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
+      <div className={`${styles.section} w-[60%] 800px:w-[60%]`}>
         <h1
-          className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
+          className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#0f0e0e] font-[600] capitalize`}
         >
           LubriFiltres<br />
         </h1>
-        <h6 className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-        Le N°1 de la distribution en gros de Lubrifiants et filtres automobiles en Tunisie.
-        </h6>
+        <h5 className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
+        Le site N°1 de la distribution en gros de Lubrifiants et filtres automobiles en Tunisie.
+        </h5>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
                  <span className="text-[#fff] font-[Poppins] text-[18px]">
